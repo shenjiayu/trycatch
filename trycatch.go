@@ -4,6 +4,7 @@ package trycatch
 // testing the merge function
 // this is a master branch
 // resolve conflicts
+// testing vscode editor
 func Try(fun func(), catch func(interface{})) {
 	defer func() {
 		if err := recover(); err != nil {
